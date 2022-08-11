@@ -1,0 +1,47 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .CarouselImg{
+        display: none !important;
+    }
+}
+
+// LARGE DEVICES [LG]
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .CarouselImg{
+        display: none !important;
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .CarouselImg{
+        display: none !important;
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .CarouselImg{
+      
+    }
+
+    .GalleryImgSlider{
+        padding: 0% !important;
+    }
+    .GalleryWrapper {   
+        display: none !important;
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+
+    .GalleryImgSlider{
+        padding: 0% !important;
+    }
+    .GalleryWrapper {   
+        display: none !important;
+    }
+            
+   
+}

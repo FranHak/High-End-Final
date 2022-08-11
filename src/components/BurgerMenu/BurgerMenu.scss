@@ -1,0 +1,103 @@
+.BurgerMenu {
+    position: absolute;
+
+    .BurgerMenuCheckbox {
+        display: none;
+    }
+
+        .BurgerMenuCheckbox:checked ~ .BurgerMenuContent {
+            opacity: 1;
+            visibility: visible;
+            width: 100%;
+            background-color: #1E1E1E;
+        }
+        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars {
+        background: transparent;
+        }
+        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars::before {
+        top: 0;
+        transform: rotate(135deg);
+        }
+        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars::after {
+        top: 0;
+        transform: rotate(-135deg);
+        }
+
+    .BurgerMenuButton {
+        
+        display: flex;
+        text-align: center;
+        justify-content: end;
+        padding-top: 1%;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        .BurgerMenuBars {
+            position: relative;
+            margin-top: 35px;
+        }
+            .BurgerMenuBars,
+            .BurgerMenuBars::before,
+            .BurgerMenuBars::after {
+                width: 30px;
+                height: 3px;
+                background: #ffffff;
+                display: inline-block;
+            }
+            .BurgerMenuBars::before,
+            .BurgerMenuBars::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                transition: all 0.2s;
+            }
+            .BurgerMenuBars::before {
+                top: -10px;
+            }
+            .BurgerMenuBars::after {
+                top: 10px;
+            }
+    }
+        .BurgerMenuButton:hover .BurgerMenuBars::before {
+            top: -12px;
+        }
+        .BurgerMenuButton:hover .BurgerMenuBars::after {
+            top: 12px;
+        }
+
+    .BurgerMenuContent {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 1500;
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        transition: all 0.8s cubic-bezier(0.68, -0.55, 0.256,1.55);
+
+        .BurgerMenuList {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            list-style: none;
+            text-align: center;
+            width: 100%;
+
+            .BurgerMenuLink {
+                font-size: 20px;
+                font-weight: 300;
+                color: #fff;
+                padding: 20px;
+                text-transform: uppercase;
+                text-decoration: none;
+                transition: all 0.4s;
+            }
+                .BurgerMenuLink:hover {
+                    color: #314F40;
+                    cursor: pointer;
+                }
+        }
+    }
+}

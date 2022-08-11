@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  font-family: raleway;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1659641996/FONTS/Raleway-VariableFont_wght_ukcyh2.ttf) format('truetype');
+}
+@font-face {
+  font-family: morganite;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1659661578/FONTS/Morganite-Black_gnasei.ttf) format('truetype');
+}
+
+.raleway {
+  font-family: raleway;
+}
+.morganite {
+  font-family: morganite;
+}

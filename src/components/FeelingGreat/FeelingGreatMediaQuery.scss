@@ -1,0 +1,166 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .FeelingGreat {
+        height: 93vh;
+
+        .FeelingGreatContent {
+            margin-left: 20%;
+            .FeelingGreatSmallDevicesLogo {
+                display: none;
+            }
+            h2 {
+                font-weight: 800;
+                font-size: 3.75em;
+            }
+            p {
+                font-weight: 400;
+                width: 90%;
+            }
+        }
+
+        .FeelingGreatCropArea {
+            height: 93vh;
+            .FeelingGreatCrop {
+                height: 50%;
+                width: 50%;
+            }
+        }
+    }
+}
+
+// LARGE DEVICES [L]
+@media all and (min-width: 993px) and (max-width: 1999px) {
+    .FeelingGreat {
+        height: 93vh;
+
+        .FeelingGreatContent {
+            margin-left: 20%;
+            .FeelingGreatSmallDevicesLogo {
+                display: none;
+            }
+            h2 {
+                font-weight: 800;
+                font-size: clamp(1em, 5vw, 25em);
+            }
+            p {
+                font-weight: 400;
+                width: 100%;
+            }
+        }
+
+        .FeelingGreatCropArea {
+            height: 93vh;
+            .FeelingGreatCrop {
+                height: 50%;
+                width: 50%;
+            }
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .FeelingGreat {
+        height: 93vh;
+
+        .FeelingGreatContent {
+            margin-left: 20%;
+            .FeelingGreatSmallDevicesLogo {
+                display: none;
+            }
+            h2 {
+                font-weight: 800;
+                font-size: clamp(1em, 5vw, 25em);
+                color: black;
+            }
+            p {
+                font-weight: 400;
+                width: 100%;
+            }
+        }
+
+        .FeelingGreatCropArea {
+            height: 93vh;
+            .FeelingGreatCrop {
+                height: 60%;
+                width: 60%;
+            }
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .Row {
+        display: flex;
+    }
+
+    .FeelingGreat {
+        height: 93vh;
+
+        .FeelingGreatContent {
+            margin-left: 20%;
+            .FeelingGreatSmallDevicesLogo {
+                display: none;
+            }
+            h2 {
+                font-weight: 800;
+                font-size: clamp(1em, 5vw, 25em);
+                color: black;
+            }
+            p {
+                font-weight: 400;
+                width: 100%;
+            }
+        }
+
+        .FeelingGreatCropArea {
+            height: 93vh;
+            .FeelingGreatCrop {
+                height: 65%;
+                width: 65%;
+            }
+        }
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+    .FeelingGreat {
+        height: 93vh;
+        display: flex;
+                align-items: center;
+
+        .FeelingGreatContent {
+            margin-left: 10%;
+            margin-right: 10%;
+            .FeelingGreatSmallDevices{
+                display: flex;
+                align-items: center;
+                .FeelingGreatSmallDevicesLogo {
+                    background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659664820/HIGH%20END/Prin-iso-vertical_orm0df.svg);
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    height: 71px;
+                    width: 57px;
+                }
+                h2 {
+                    font-weight: 800;
+                    font-size: 32px;
+                    color: black;
+                    margin-left: 30px;
+                }
+            }
+            p {
+                font-weight: 400;
+                width: 100%;
+                margin-top: 8%;
+            }
+        }
+
+        .FeelingGreatCropArea {
+            display: none;
+        }
+    }
+}

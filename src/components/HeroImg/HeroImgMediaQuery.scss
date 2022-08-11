@@ -1,0 +1,172 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .HeroImg {
+        height: 128vh;
+
+        .FeelingGreatContent {
+            text-align: left;
+            color: #ffffff;
+            margin-left: 20%;
+            margin-top: 38em;
+            h1 {
+                font-weight: 900;
+                font-size: 97px;
+                line-height: 97px;
+                letter-spacing: 0.06em;
+            }
+            h3 {
+                font-weight: 800;
+            }
+        }
+
+        .HeroImgCropArea {
+            height: 128vh;
+            .HeroImgCrop {
+                height: 128vh;
+                width: 160%;
+                margin-right: 45%;
+            }
+            .HeroImgSmallDevices {
+                display: none;
+            }
+        }
+    }
+}
+
+// LARGE DEVICES [L]
+@media all and (min-width: 993px) and (max-width: 1999px) {
+    .HeroImg {
+        height: 128vh;
+
+        .FeelingGreatContent {
+            text-align: left;
+            color: #ffffff;
+            margin-left: 20%;
+            margin-top: 38em;
+            h1 {
+                font-weight: 900;
+                font-size: clamp(1em, 8vw, 45em);
+                line-height: 97px;
+                letter-spacing: 0.06em;
+            }
+            h3 {
+                font-weight: 800;
+            }
+        }
+
+        .HeroImgCropArea {
+            height: 128vh;
+            .HeroImgCrop {
+                height: 128vh;
+                width: 160%;
+                margin-right: 45%;
+            }
+            .HeroImgSmallDevices {
+                display: none;
+            }
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .HeroImg {
+        height: 128vh;
+        background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659810513/HIGH%20END/_MG_8588_zq9ume.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .FeelingGreatContent {
+            text-align: right;
+            color: black;
+            margin-right: 10%;
+            margin-top: 5em;
+            h1 {
+                font-weight: 900;
+                font-size: 98px;
+                line-height: 97px;
+                letter-spacing: 0.06em;
+            }
+            h3 {
+                font-weight: 800;
+                // font-size: 23px;
+                font-size: clamp(20px, 2.5vw, 23px);
+            }
+        }
+
+        .HeroImgCropArea {
+            display: none;
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .HeroImg {
+        height: 128vh;
+        background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659810513/HIGH%20END/_MG_8588_zq9ume.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+        .FeelingGreatContent {
+            text-align: right;
+            color: black;
+            margin-right: 5%;
+            margin-top: 5em;
+            h1 {
+                font-weight: 900;
+                font-size: 98px;
+                line-height: 97px;
+                letter-spacing: 0.06em;
+            }
+            h3 {
+                font-weight: 800;
+                // font-size: 23px;
+                padding-left: 100px;
+                width: 100%;
+                font-size: clamp(18px, 2.5vw, 23px);
+            }
+        }
+
+        .HeroImgCropArea {
+            display: none;
+        }
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+    .HeroImg {
+        height: 128vh;
+        background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659810513/HIGH%20END/_MG_8588_zq9ume.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+        .FeelingGreatContent {
+            text-align: right;
+            color: black;
+            margin-right: 5%;
+            margin-top: 5em;
+            h1 {
+                font-weight: 900;
+                font-size: 98px;
+                line-height: 97px;
+                letter-spacing: 0.06em;
+            }
+            h3 {
+                font-weight: 800;
+                // font-size: 23px;
+                padding-left: 100px;
+                width: 100%;
+                font-size: 18px;
+            }
+        }
+
+        .HeroImgCropArea {
+            display: none;
+        }
+    }
+}

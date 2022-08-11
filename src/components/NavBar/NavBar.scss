@@ -1,0 +1,35 @@
+.NavBar {
+    background-color: #314F40;
+
+    .row {
+        display: flex;
+
+        .NavArea {
+            display: flex;
+            align-items: flex-end;
+
+                .Link {
+                    display: flex;
+                    align-items: flex-end;
+                    color: #ffffff;
+                    p {
+                        align-self: flex-end;
+                        font-size: clamp(1.1em, 2vw, 1.125em)!important;
+                    }
+                }
+
+                .InstagramLogo {
+                    display: flex;
+                    justify-content: flex-end;
+                
+                }
+                .InstagramLogo a{
+                    align-self: end !important;
+                }
+                .Logo {
+                    align-self: flex-end;
+                    color: #ffffff;
+                }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.Footer {
+    background-color: #314F40;
+    height: 9em;
+
+    .row {
+        padding: 3% 3%;
+
+        .FooterInstagram {
+            color: white;
+
+            h6 {
+                padding-bottom: 0.8%;
+            }
+
+            a {
+                color: #314F40;
+                background-color: #BFBFBF;
+                border-radius: 50px;
+                padding: 9.5px 24px;
+                gap: 10px;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 0.9em;
+                line-height: 21px;
+            }
+        }
+    }
+
+}

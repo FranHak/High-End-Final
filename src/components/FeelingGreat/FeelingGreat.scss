@@ -1,0 +1,35 @@
+.FeelingGreat {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    height: 100vh !important;
+
+    .FeelingGreatArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .FeelingGreatContent {
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            color: #1E1E1E;
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+
+    .FeelingGreatCropArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .FeelingGreatCrop {
+            background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659664820/HIGH%20END/Prin-iso-vertical_orm0df.svg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

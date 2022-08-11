@@ -1,0 +1,84 @@
+.GalleryImg {
+    height: 60vh;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+
+    .ImagesRow {
+        padding-top: 6%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8%;
+
+        .LeftImg {
+            background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659670748/HIGH%20END/_MG_8537_guj32k.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 8px solid white;
+            border-radius: 2%;
+            height: 60vh;
+            width: 25vw;
+        }
+
+        .CenterImg {
+            width: 28vw;
+
+            .ImgTop {
+                background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659670753/HIGH%20END/_MG_8610_uldfcg.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border: 8px solid white;
+                border-radius: 2%;
+                height: 40%;
+                width: 25vw;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .ImgBottom {
+                background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659670746/HIGH%20END/_MG_8805_wfcijc.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border: 8px solid white;
+                border-radius: 2%;
+                height: 40%;
+                width: 25vw;
+                margin-left: auto;
+                margin-right: auto !important;
+                display: block;
+                margin-top: 5%;
+            }
+        }
+
+        .RightImg {
+            background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659670754/HIGH%20END/_MG_8883_ktxf7f.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 8px solid white;
+            border-radius: 2%;
+            height: 60vh;
+            width: 25vw;
+        }
+    }
+
+    .ProcessRow {
+        margin-left: 9%;
+        margin-right: 9%;
+
+        h3 {
+            color: white;
+            font-weight: 700;
+        }
+        p {
+            color: white;
+        }
+        .Icon {
+            color: white;
+            margin-bottom: 3%;
+        }
+    }
+}

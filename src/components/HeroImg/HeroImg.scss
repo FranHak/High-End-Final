@@ -1,0 +1,23 @@
+.HeroImg {
+    background-color: #1E1E1E;
+    
+
+    .FeelingGreatContent {
+        h1 {
+            font-family: morganite;
+            text-transform: uppercase;
+        }
+    }
+
+    .HeroImgCropArea {
+        display: flex;
+        justify-content: center;
+
+        .HeroImgCrop {
+            background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659659842/HIGH%20END/HIGH_END_nbv88v.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

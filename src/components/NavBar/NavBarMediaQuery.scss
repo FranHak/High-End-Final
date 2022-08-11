@@ -1,0 +1,172 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1201px) {
+    .NavBar {
+        height: 7em;
+
+        .row {
+            padding-top: 2.5%;
+
+            .LogoArea {
+                .LogoImg {
+                    margin-top: 3px;
+                    img {
+                        width: 15em;
+                    }
+                }
+            }
+
+            .NavArea {
+                .Link {
+                    font-weight: 550;
+                    height: 3.2em;
+                    p {
+                        margin: 0 auto;
+                    }
+                }
+                .InstagramLogo {
+                    height: 3.2em;
+                    margin-left: -5em;
+                }
+                .Logo {
+                    margin-bottom: 0.2em;
+                }
+            }
+        }
+
+        .BurgerMenu {
+            display: none;
+        }
+    }
+}
+
+// LARGE DEVICES [LG]
+@media all and (min-width: 993px) and (max-width: 1200px) {
+    .NavBar {
+        height: 7em;
+
+        .row {
+            padding-top: 3%;
+
+            .LogoArea {
+                .LogoImg {
+                    margin-top: 3px;
+                    img {
+                        width: 15em;
+                    }
+                }
+            }
+
+            .NavArea {
+                .Link {
+                    font-weight: 550;
+                    height: 3.2em;
+                    p {
+                        margin: 0 auto;
+                    }
+                }
+                .InstagramLogo {
+                    height: 3.2em;
+                    margin-left: -5em;
+                }
+                .Logo {
+                    margin-bottom: 0.2em;
+                }
+            }
+        }
+
+        .BurgerMenu {
+            display: none;
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .NavBar {
+        height: 7em;
+
+        .row {
+            padding-top: 3.5%;
+
+            .LogoArea {
+                .LogoImg {
+                    margin-top: 3px;
+                    img {
+                        width: 15em;
+                    }
+                }
+            }
+
+            .NavArea {
+                .Link {
+                    font-weight: 550;
+                    height: 3.2em;
+                    p {
+                        margin: 0 auto;
+                    }
+                }
+                .InstagramLogo {
+                    height: 3.2em;
+                    margin-left: -5em;
+                }
+                .Logo {
+                    margin-bottom: 0.2em;
+                }
+            }
+        }
+
+        .BurgerMenu {
+            display: none;
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+    .NavBar {
+        height: 7em;
+
+        .row {
+            padding-top: 4%;
+
+            .LogoArea {
+                .LogoImg {
+                    margin-top: 3px;
+                    text-align: left;
+                    img {
+                        width: 15em;
+                    }
+                }
+            }
+
+            .NavArea {
+                display: none;
+            }
+        }
+    }
+}
+
+// XS DEVICES [-]
+@media all and (max-width: 576px) {
+    .NavBar {
+        height: 7em;
+
+        .row {
+            padding-top: 5%;
+
+            .LogoArea {
+                .LogoImg {
+                    margin-top: 21px;
+                    text-align: left;
+                    img {
+                        width: 12em;
+                    }
+                }
+            }
+
+            .NavArea {
+                display: none;
+            }
+        }
+    }
+}
