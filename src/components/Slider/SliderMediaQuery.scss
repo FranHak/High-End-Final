@@ -1,5 +1,5 @@
 // X-LARGE DEVICES [XL]
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1200px)  {
     .CarouselImg{
         display: none !important;
     }
@@ -22,7 +22,7 @@
 // SMALL DEVICES [SM]
 @media all and (min-width: 577px) and (max-width: 768px) {
     .CarouselImg{
-      
+      height: auto;
     }
 
     .GalleryImgSlider{

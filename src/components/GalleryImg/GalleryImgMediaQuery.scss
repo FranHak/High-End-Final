@@ -1,111 +1,51 @@
 // X-LARGE DEVICES [XL]
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1025px) and  (max-width: 1328px) {
 
 }
 
 // LARGE DEVICES [LG]
-@media all and (min-width: 993px) and (max-width: 1199px) {
-
-    .GalleryImg {
-        height: 60vh;
-        background-color: #1E1E1E;
-        display: flex;
-        align-items: center;
-    
-    
-        .ProcessRow {
-            margin-left: 9%;
-            margin-right: 9%;
-    
-            h3 {
-                color: white;
-                font-weight: 700;
-            }
-            p {
-                color: white;
-            }
-            .Icon {
-                color: white;
-                margin-bottom: 3%;
-            }
-        }
-    }
+@media all and (min-width: 961px) and (max-width: 1024px) {
 
 }
 
 // MEDIUM DEVICES [MD]
-@media all and (min-width: 769px) and (max-width: 992px) {
+@media all and (min-width: 769px) and (max-width: 960px) {
     .GalleryImg {
-    
-        height: 110vh;
-        background-color: #1E1E1E;
-        display: flex;
-        align-items: center;
-
-        .ProcessRow {
-            
-            margin-left: 9%;
-            margin-right: 9%;
-
-            h3 {
-                color: white;
-                font-weight: 700;
-            }
-            p {
-                color: rgb(255, 255, 255);
-                
-            }
-            .Icon {
-                color: white;
-                margin-top: 10%;
-                margin-bottom: 5%;
-            }
-        }
-        
+      height: auto;
     }
 }
 
 // SMALL DEVICES [SM]
-@media all and (min-width: 577px) and (max-width: 768px) {
+@media all and (min-width: 481px) and (max-width: 768px) {
 
-    .GalleryImg {
-    
-        height: 110vh;
-        background-color: #1E1E1E;
-        display: flex;
-        align-items: center;
+        @media all and (min-width: 577px) {
 
-        .ProcessRow {
-            
-            margin-left: 9%;
-            margin-right: 9%;
-
-            h3 {
-                color: white;
-                font-weight: 700;
-            }
-            p {
-                color: white;
-                
-            }
-            .Icon {
-                color: white;
-                margin-top: 10%;
-                margin-bottom: 5%;
+            .GalleryImg {
+                height: 60rem;
+                padding-top: 5rem;
             }
         }
-        
-      }
-    }
+}
+   
 
+@media all and (min-width: 321px) and (max-width: 480) {
+    .GalleryImg {
+    
+        height: auto;
+        
+       
+       
+
+        
+}}
 
 // XS DEVICES [-]
-@media all and (max-width: 576px) {
+@media all and (max-width: 320px) {
 
                 
     .GalleryImg {
     
-        height: 1350px;
+        height: auto;
         background-color: #1E1E1E;
         display: flex;
         align-items: center;
