@@ -7,12 +7,12 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Slider() {
     return (
-    <Container fluid className='GalleryImgSlider' >
+    <Container   fluid className='GalleryImgSlider' >
     
 {/* --------------------------------------------CAROUSEL FOTOS-------------------------------------------------  */}
 
     <Carousel fade  className="CarouselImg ">
-      <Carousel.Item className="CarouselItem">
+      <Carousel.Item name="Galer" id="Galer" className="CarouselItem">
             <img
                 className="d-block w-100"
                 src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670748/HIGH%20END/_MG_8537_guj32k.jpg"

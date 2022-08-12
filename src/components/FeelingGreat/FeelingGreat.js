@@ -17,12 +17,12 @@ const FeelingGreat = () => {
 
     return (
         <Container fluid className='FeelingGreat' id="Nosotros">
-            <Row>
-                <Col xl={7} lg={7} md={7} sm={6} className='FeelingGreatArea'>
+            <Row >
+                <Col name="Nosotros" xl={7} lg={7} md={7} sm={6} className='FeelingGreatArea'>
                     <div className='FeelingGreatContent'>
                         <div className='FeelingGreatSmallDevices'>
                             <div className='FeelingGreatSmallDevicesLogo'></div>
-                            <h2>Nosotros</h2>
+                            <h2 >Nosotros</h2>
                         </div>
                         <p> 
                             Somos dos amigos aficionados a la ropa, con mucha ambición e ideas que pueden mover el mundo. Buscamos fidelizar a nuestros futuros clientes con prendas totalmente exclusivas e innovadoras.
