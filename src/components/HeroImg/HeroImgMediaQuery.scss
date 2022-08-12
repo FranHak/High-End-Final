@@ -36,13 +36,14 @@
 // LARGE DEVICES [L]
 @media all and (min-width: 993px) and (max-width: 1999px) {
     .HeroImg {
-        height: 128vh;
+        height: 100vh;
+        padding-bottom: 60px;
 
         .FeelingGreatContent {
             text-align: left;
             color: #ffffff;
             margin-left: 20%;
-            margin-top: 38em;
+            margin-top: 15em;
             h1 {
                 font-weight: 900;
                 font-size: clamp(1em, 8vw, 45em);

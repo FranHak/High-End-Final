@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 const BurgerMenu = () => {
 
     return (
-        <Container className='BurgerMenu'>
+        <Container >
             <input type='checkbox' className='BurgerMenuCheckbox' id='toggle'></input>
             <label htmlFor='toggle' className='BurgerMenuButton'>
                 <span className='BurgerMenuBars'>&nbsp;</span>
