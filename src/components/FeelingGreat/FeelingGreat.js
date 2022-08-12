@@ -24,8 +24,10 @@ const FeelingGreat = () => {
                             <div className='FeelingGreatSmallDevicesLogo'></div>
                             <h2>Nosotros</h2>
                         </div>
-                        <p>Dos amigos que desde hace muchos años, apasionados por el diseño y la ropa de calidad, decidieron crear una nueva marca con un fuerte carácter urbano para ofrecer ropa original y de calidad. Pero además con un formato innovador, para romper las reglas en el mercado local.
-                        Nuestra marca de ropa que busca la exclusividad con cada uno de los productos teniendo lanzamientos por drops y en poca cantidad generando una alta demanda pero una baja oferta dándole valor único a cada prenda.
+                        <p> 
+                            Somos dos amigos aficionados a la ropa, con mucha ambición e ideas que pueden mover el mundo. Buscamos fidelizar a nuestros futuros clientes con prendas totalmente exclusivas e innovadoras.
+                            Nuestros productos son ideados por nosotros en base a las nuevas tendencias, con el objetivo de llegar a las personas de una manera distinta. Desarrollamos esta marca con el propósito de que los clientes se sientan identificados y pasen a ser parte de esta familia.
+                            Utilizamos diferentes métodos para desarrollar cada drop con profesionalidad buscando la excelencia, calidad y una experiencia única a cada persona que forme parte de High-End.
                         </p>
                     </div>
                 </Col>

@@ -25,22 +25,22 @@ const GalleryImg = () => {
                 <Col  sm={6} lg={3}>
                     <div> <MdDesignServices className='Icon' size={90}/> </div>
                     <h3>Diseñamos</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, officiis.</p>
+                    <p>Nosotros dedicamos gran parte nuestro de tiempo a la creación y diseño de los drops , buscando siempre dar un enfoque único y diferente.</p>
                 </Col>
                 <Col  sm={6} lg={3}>
                     <div> <MdPrecisionManufacturing className='Icon' size={90}/> </div>
                     <h3>Producimos</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, officiis.</p>
+                    <p>Contamos con los mejores talleres del país para producir y dar vida a nuestras ideas, con el foco siempre en la calidad de nuestras prendas.</p>
                 </Col>
                 <Col  sm={6} lg={3}>
                     <div> <IoMdRocket className='Icon' size={90}/> </div>
                     <h3>Lanzamos</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, officiis.</p>
+                    <p>Planeamos una estrategia y un plan de acción para cada drop teniendo siempre en la mira a nuestros clientes y como brindarles la mejor experiencia.</p>
                 </Col>
                 <Col  sm={6} lg={3}>
                     <div> <HiRefresh className='Icon' size={90}/> </div>
                     <h3>Refresh</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, officiis.</p>
+                    <p>Una vez finalizado el drop eliminamos de nuestro catalogo las prendas anteriores “SOLD OUT”  y repetimos todo el proceso teniendo en cuenta el feedback de todas las personas que tengan una prenda HIGH-END</p>
                 </Col>
             </Row>
         </Container>
