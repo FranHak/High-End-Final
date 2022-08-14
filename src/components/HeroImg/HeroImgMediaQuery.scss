@@ -108,7 +108,7 @@
         height: 128vh;
         background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659810513/HIGH%20END/_MG_8588_zq9ume.jpg);
         background-size: cover;
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
 
         .FeelingGreatContent {
@@ -125,7 +125,7 @@
             h3 {
                 font-weight: 800;
                 // font-size: 23px;
-                padding-left: 100px;
+                padding-left: 150px;
                 width: 100%;
                 font-size: clamp(18px, 2.5vw, 23px);
             }
@@ -160,7 +160,7 @@
             h3 {
                 font-weight: 800;
                 // font-size: 23px;
-                padding-left: 100px;
+                padding-left: 200px;
                 width: 100%;
                 font-size: 18px;
             }
@@ -170,4 +170,40 @@
             display: none;
         }
     }
-}
+    
+    @media all and (min-width:470px){
+
+        .HeroImg {
+            height: 128vh;
+            background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1659810513/HIGH%20END/_MG_8588_zq9ume.jpg);
+            background-size: cover;
+            background-position:top;
+            background-repeat: no-repeat;
+    
+            .FeelingGreatContent {
+                text-align: right;
+                color: black;
+                margin-right: 5%;
+                margin-top: 5em;
+                h1 {
+                    font-weight: 900;
+                    font-size: 98px;
+                    line-height: 97px;
+                    letter-spacing: 0.06em;
+                }
+                h3 {
+                    font-weight: 800;
+                    // font-size: 23px;
+                    padding-left: 200px;
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+    
+            .HeroImgCropArea {
+                display: none;
+            }
+
+    }
+
+}}

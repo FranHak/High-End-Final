@@ -31,7 +31,7 @@ const NavBar = () => {
                     <Col className='Link'> <Link href="#Nosotros"> <p>Nosotros</p> </Link> </Col>
                     <Col className='Link'> <Link href="#Galeria"> <p>Galeria</p> </Link> </Col>
                     <Col className='Link'> <Link href="#Contacto"> <p>Contacto</p> </Link> </Col>
-                    <Col className='InstagramLogo'><a target="_blank" href='https://www.instagram.com/highend.sw/'><BsInstagram className='Logo' size={23}/></a></Col>
+                    
                 </Col>
             <label className='BurgerMenu'> <BurgerMenu /> </label>
             </Row>

@@ -11,14 +11,14 @@
             width: 100%;
             background-color: #1E1E1E;
         }
-        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars {
+        .BurgerMenuCheckbox:checked + .BurgerMenuLink .BurgerMenuBars {
         background: transparent;
         }
-        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars::before {
+        .BurgerMenuCheckbox:checked + .BurgerMenuLink .BurgerMenuBars::before {
         top: 0;
         transform: rotate(135deg);
         }
-        .BurgerMenuCheckbox:checked + .BurgerMenuButton .BurgerMenuBars::after {
+        .BurgerMenuCheckbox:checked + .BurgerMenuLink .BurgerMenuBars::after {
         top: 0;
         transform: rotate(-135deg);
         }

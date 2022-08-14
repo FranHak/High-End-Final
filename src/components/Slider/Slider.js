@@ -7,21 +7,17 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Slider() {
     return (
-    <Container   fluid className='GalleryImgSlider' >
+    <Container   fluid className='GalleryImgSlider' name="Galer" id="Galer" >
     
 {/* --------------------------------------------CAROUSEL FOTOS-------------------------------------------------  */}
 
-    <Carousel fade  className="CarouselImg ">
+    <Carousel variant="dark"  className="CarouselImg ">
       <Carousel.Item name="Galer" id="Galer" className="CarouselItem">
             <img
                 className="d-block w-100"
                 src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670748/HIGH%20END/_MG_8537_guj32k.jpg"
                 alt="First slide"
             />
-            <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="CarouselItem">
             <img
@@ -29,11 +25,6 @@ function Slider() {
                 src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670753/HIGH%20END/_MG_8610_uldfcg.jpg"
                 alt="Second slide"
             />
-
-            <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="CarouselItem">
             <img
@@ -41,27 +32,13 @@ function Slider() {
                 src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670746/HIGH%20END/_MG_8805_wfcijc.jpg"
                 alt="Third slide"
             />
-
-            <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-            </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="CarouselItem">
             <img
                 className="d-block w-100"
                 src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670754/HIGH%20END/_MG_8883_ktxf7f.jpg"
                 alt="Third slide"
-            />
-
-            <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-            </Carousel.Caption>
+            />      
       </Carousel.Item>
     </Carousel>
 
@@ -73,7 +50,7 @@ function Slider() {
                 </a>
             </div>
 
-            <div className="ImageWrapper ImageWrapper2" id="Galeria">
+            <div className="ImageWrapper ImageWrapper2" >
                 <a href="#lightbox-image-2">
                     <img className='CenterImgTop' src="https://res.cloudinary.com/dfprmjlir/image/upload/v1659670753/HIGH%20END/_MG_8610_uldfcg.jpg" alt="" />
                 </a>

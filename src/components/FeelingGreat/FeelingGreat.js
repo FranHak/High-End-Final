@@ -18,7 +18,7 @@ const FeelingGreat = () => {
     return (
         <Container fluid className='FeelingGreat' id="Nosotros">
             <Row >
-                <Col name="Nosotros" xl={7} lg={7} md={7} sm={6} className='FeelingGreatArea'>
+                <Col name="Nosotros" xl={7} lg={7} md={7}  className='FeelingGreatArea'>
                     <div className='FeelingGreatContent'>
                         <div className='FeelingGreatSmallDevices'>
                             <div className='FeelingGreatSmallDevicesLogo'></div>

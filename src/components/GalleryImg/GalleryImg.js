@@ -40,7 +40,7 @@ const GalleryImg = () => {
                 <Col  sm={6} lg={3}>
                     <div> <HiRefresh className='Icon' size={90}/> </div>
                     <h3>Refresh</h3>
-                    <p>Una vez finalizado el drop eliminamos de nuestro catalogo las prendas anteriores “SOLD OUT”  y repetimos todo el proceso teniendo en cuenta el feedback de todas las personas que tengan una prenda HIGH-END</p>
+                    <p>Una vez finalizado el drop, repetimos todo el proceso teniendo en cuenta el feedback de todas las personas que tengan una prenda HIGH-END</p>
                 </Col>
             </Row>
         </Container>
